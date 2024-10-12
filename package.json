@@ -1,0 +1,35 @@
+{
+  "name": "dataLouna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "initItems": "ts-node src/initItems.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonluk/dataLouna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonluk/dataLouna/issues"
+  },
+  "homepage": "https://github.com/antonluk/dataLouna#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "pg": "^8.13.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "@types/pg": "^8.11.10",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.3"
+  }
+}
