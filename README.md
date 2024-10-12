@@ -40,6 +40,9 @@ CREATE TABLE purchases (
 ```
 
 ![alt text](idef1x.png)  
+
+## Создать юзера в users
+
 ## Установка
 
 Для установки пакетов
